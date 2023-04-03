@@ -9,7 +9,6 @@ let isWaiting = false;
 
 function getNewUser() {
   const nextUserData = usersData[usersArray.shift()];
-  console.log(nextUserData);
   return nextUserData ? new User(nextUserData) : {};
 }
 
@@ -24,8 +23,8 @@ class User {
   getUsersHtml() {
     const { name, avatar, age, bio } = this;
     return `<img src="${avatar}" alt="user's photo" class="mainimage" />
-    <div id="liked" class="hidden "><img src="images/badge-like.png" class="badge green"/></div>
-    <div id="rejected" class="hidden "><img src="images/badge-nope.png" class="badge red"/></div>
+    <div id="liked" class="hidden "><img src="badge-like.png" class="badge green"/></div>
+    <div id="rejected" class="hidden "><img src="badge-nope.png" class="badge red"/></div>
     <div class="user-info">
       <h2>${name}, ${age}</h2>
       <p> ${bio} </p>
@@ -68,4 +67,3 @@ function render() {
   }
 }
 render();
-console.log(usersInterface.hasBeenSwiped);
