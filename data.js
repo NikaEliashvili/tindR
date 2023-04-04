@@ -1,7 +1,7 @@
 const usersData = [
   {
     name: "Nini",
-    avatar: "images/nini.jpeg",
+    avatar: "nini.jpeg",
     age: 19,
     bio: "I love two things! Learn and Nika. I can't breath without him,bye.",
     hasBeenSwiped: false,
@@ -9,7 +9,7 @@ const usersData = [
   },
   {
     name: "Bella",
-    avatar: "images/dog-bella.jpg",
+    avatar: "dog-bella.jpg",
     age: 43,
     bio: "Yup, that's my dog. U can meet him if you want",
     hasBeenSwiped: false,
@@ -17,7 +17,7 @@ const usersData = [
   },
   {
     name: "Andre",
-    avatar: "images/andre-tan.jpg",
+    avatar: "andre-tan.jpg",
     age: 30,
     bio: "How you doin?",
     hasBeenSwiped: false,
@@ -25,7 +25,7 @@ const usersData = [
   },
   {
     name: "Austin",
-    avatar: "images/austin-wade.jpg",
+    avatar: "austin-wade.jpg",
     age: 22,
     bio: "I'm looking a girl from Scotland. I am crazy guy, you will never get bored",
     hasBeenSwiped: false,
@@ -33,7 +33,7 @@ const usersData = [
   },
   {
     name: "Henri",
-    avatar: "images/henri-pham.jpg",
+    avatar: "henri-pham.jpg",
     age: 23,
     bio: "I'm really pretty and fun, please text me to chat with you <3",
     hasBeenSwiped: false,
@@ -41,7 +41,7 @@ const usersData = [
   },
   {
     name: "Joshua",
-    avatar: "images/joshua-rawson.jpg",
+    avatar: "joshua-rawson.jpg",
     age: 20,
     bio: "I have nothing to say. I just need love!",
     hasBeenSwiped: false,
@@ -49,7 +49,7 @@ const usersData = [
   },
   {
     name: "Marcos",
-    avatar: "images/marcos-paulo.jpg",
+    avatar: "marcos-paulo.jpg",
     age: 26,
     bio: "Love Travel, fun, drink and I love life. join me to have fun!",
     hasBeenSwiped: false,
@@ -57,7 +57,7 @@ const usersData = [
   },
   {
     name: "Vince",
-    avatar: "images/vince-fleming.jpg",
+    avatar: "vince-fleming.jpg",
     age: 25,
     bio: "I am programer with high salary and really wonderful carrer path. I need girl who become my best-girlfriend",
     hasBeenSwiped: false,

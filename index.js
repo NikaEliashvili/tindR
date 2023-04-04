@@ -18,7 +18,7 @@ class User {
   }
 
   getAlternateHtml() {
-    return `<h2>We are sorry that there are No More users to see...</h2>`;
+    return `<h2 class="NoMoreFeed">We are sorry that there are No More users to see...<br> Please Try To Refresh a page</h2>`;
   }
   getUsersHtml() {
     const { name, avatar, age, bio } = this;
