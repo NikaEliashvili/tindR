@@ -22,7 +22,20 @@
       <img src="icon-chat.png" alt="icon-chat" class="image" />
     </header>
     <main id="main" class="main">
-      <section class="section1" id="user-interface"></section>
+      <section class="section1" id="user-interface">
+        <img src="/dog-bella.jpg" alt="user's photo" class="mainimage" />
+        <div id="liked" class="hidden">
+          <img src="badge-like.png" class="badge green" />
+        </div>
+        <div id="rejected" class="hidden">
+          <img src="badge-nope.png" class="badge red" />
+        </div>
+        <div class="user-info">
+          <h2>${name}, ${age}</h2>
+          <p>${bio}</p>
+        </div>
+        ;
+      </section>
       <section class="section2">
         <div class="icon-X" id="icon-X">
           <img src="icon-cross.png" alt="" />
