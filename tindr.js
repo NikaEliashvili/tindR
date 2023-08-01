@@ -16,14 +16,6 @@ const usersData = [
     hasBeenLiked: false,
   },
   {
-    name: "Nini",
-    avatar: "nini.jpeg",
-    age: 19,
-    bio: "I love two things! Learn and Nika. I can't breath without him,bye.",
-    hasBeenSwiped: false,
-    hasBeenLiked: false,
-  },
-  {
     name: "Austin",
     avatar: "austin-wade.jpg",
     age: 22,
